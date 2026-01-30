@@ -1,7 +1,7 @@
 import requests
 
 
-url = "https://api.openweathermap.org/data/2.5/weather?q=Almaty&appid=642b3173fcc6a322df6069624acc1e0a&units=metric"
+url = "https://api.openweathermap.org/data/2.5/weather?q=Almaty&appid=&units=metric"
 response = requests.get(url)
 
 if response.status_code == 200:
